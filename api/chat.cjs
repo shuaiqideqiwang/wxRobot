@@ -5,7 +5,7 @@ const route = express.Router();
 const request = require('request');
 var xmldoc = require('xmldoc');
 // wxid_m9zkl6flluox22
-var mywxid = "wxid_m9zkl6flluox22"; //机器人wxid
+var mywxid = "wxid_xxxxxxxxxxxxx"; //机器人wxid
 var url = "http://127.0.0.1:7777/DaenWxHook/httpapi/?wxid=" + mywxid;
 var path = "DaenWxHook/httpapi/"
 
@@ -137,7 +137,7 @@ function openai(sendData, params) {
         url: "https://api.openai-proxy.com/v1/chat/completions",
         method: 'POST',
         headers: {
-            "Authorization": 'Bearer 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',
+            "Authorization": 'Bearer yourkey',//这里的yourkey指的是你的ChatGPTapi，需要的可以联系我
             "Content-Type": 'application/json',
 
         },
