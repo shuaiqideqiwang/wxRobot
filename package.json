@@ -1,0 +1,25 @@
+{
+  "name": "wechat_robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "chatgpt": "^5.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "mysql": "^2.18.1",
+    "openai": "^4.4.0",
+    "request": "^2.88.2",
+    "xmldoc": "^1.2.0"
+  },
+  "type": "module"
+}
